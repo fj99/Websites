@@ -1,0 +1,1 @@
+import data from'./content.json';export type SiteContent=typeof data;const keys:(keyof SiteContent)[]=['meta','brand','navigation','hero','work','about','experience','contact','footer'];const missing=keys.filter(k=>data[k]==null);if(missing.length)throw new Error(`Invalid content.json. Missing sections: ${missing.join(', ')}`);export const content:SiteContent=data;

@@ -1,0 +1,21 @@
+{
+  "name": "modern-react-templates",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "templates/*"
+  ],
+  "scripts": {
+    "dev:saas": "npm run dev --workspace @templates/saas",
+    "dev:agency": "npm run dev --workspace @templates/agency",
+    "dev:portfolio": "npm run dev --workspace @templates/portfolio",
+    "dev:restaurant": "npm run dev --workspace @templates/restaurant",
+    "dev:real-estate": "npm run dev --workspace @templates/real-estate",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2"
+  }
+}
