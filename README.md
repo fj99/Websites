@@ -1,6 +1,6 @@
-# Five Modern React Website Templates
+# Six Modern React Website Templates
 
-Five independent, responsive React + Vite + TypeScript websites. Each template has a completely different visual direction and keeps **all visible copy, links, image URLs, alt text, list items, labels, validation messages, and contact details in one file:** `src/content.json`.
+Six independent, responsive React + Vite + TypeScript websites. Each template has a completely different visual direction and keeps **all visible copy, links, image URLs, alt text, list items, labels, validation messages, and contact details in one file:** `src/content.json`.
 
 ## Templates
 
@@ -11,6 +11,7 @@ Five independent, responsive React + Vite + TypeScript websites. Each template h
 | Alex Morgan | `templates/portfolio` | Minimal Swiss portfolio | Project category filters, responsive project index |
 | Ember & Vine | `templates/restaurant` | Warm photography-led restaurant | Menu tabs, reservation drawer, newsletter form |
 | Atelier Estates | `templates/real-estate` | Refined luxury real estate | Property filters, editorial journal, private inquiry |
+| Aether | `templates/dimension` | Cinematic interactive 3D studio | Morphing particle worlds, drag/keyboard rotation, live controls |
 
 ## Quick start
 
@@ -21,7 +22,7 @@ npm install
 npm run dev:saas
 ```
 
-Replace `saas` with `agency`, `portfolio`, `restaurant`, or `real-estate`. Vite prints the local preview URL in the terminal.
+Replace `saas` with `agency`, `portfolio`, `restaurant`, `real-estate`, or `dimension`. Vite prints the local preview URL in the terminal.
 
 Build or test every site from the repository root:
 
@@ -120,6 +121,7 @@ templates/
   portfolio/
   restaurant/
   real-estate/
+  dimension/
     src/
       App.tsx
       content.json

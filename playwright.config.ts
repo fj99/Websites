@@ -6,6 +6,7 @@ const apps = [
   { name: 'portfolio', port: 4175 },
   { name: 'restaurant', port: 4176 },
   { name: 'real-estate', port: 4177 },
+  { name: 'dimension', port: 4178 },
 ];
 
 export default defineConfig({

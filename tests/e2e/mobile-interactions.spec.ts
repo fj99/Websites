@@ -6,6 +6,7 @@ const urls = {
   portfolio: 'http://127.0.0.1:4175',
   restaurant: 'http://127.0.0.1:4176',
   realEstate: 'http://127.0.0.1:4177',
+  dimension: 'http://127.0.0.1:4178',
 };
 
 test.beforeEach(async ({}, testInfo) => {
@@ -131,4 +132,18 @@ test('Real-estate phone navigation, filters, and inquiry form work', async ({ pa
   await page.locator('.inquiry input[name="email"]').fill('phone@example.com');
   await page.locator('.inquiry form > button').click();
   await expect(page.locator('.inquiry [aria-live="polite"]')).not.toBeEmpty();
+});
+
+test('Dimension phone navigation, world controls, and contact form work', async ({ page }) => {
+  await expectPhoneShell(page, urls.dimension, '.menu-button');
+  await page.locator('header nav a').first().click();
+  await expect(page.locator('header nav')).not.toBeVisible();
+
+  const world = page.locator('.world-list button').nth(1);
+  await world.click();
+  await expect(world).toHaveAttribute('aria-pressed', 'true');
+
+  await page.locator('#dimension-email').fill('phone@example.com');
+  await page.locator('.contact form button').click();
+  await expect(page.locator('.contact form [aria-live="polite"]')).not.toBeEmpty();
 });

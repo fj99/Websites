@@ -11,6 +11,7 @@
     "dev:portfolio": "npm run dev --workspace @templates/portfolio",
     "dev:restaurant": "npm run dev --workspace @templates/restaurant",
     "dev:real-estate": "npm run dev --workspace @templates/real-estate",
+    "dev:dimension": "npm run dev --workspace @templates/dimension",
     "build": "npm run build --workspaces --if-present",
     "build:pages": "node scripts/build-pages.mjs",
     "test": "npm run test --workspaces --if-present",

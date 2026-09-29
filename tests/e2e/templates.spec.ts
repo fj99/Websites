@@ -6,6 +6,7 @@ const apps = [
   { name: 'Portfolio', url: 'http://127.0.0.1:4175', heading: /digital/i },
   { name: 'Restaurant', url: 'http://127.0.0.1:4176', heading: /season/i },
   { name: 'Real estate', url: 'http://127.0.0.1:4177', heading: /exceptional/i },
+  { name: 'Dimension', url: 'http://127.0.0.1:4178', heading: /reality/i },
 ];
 
 for (const app of apps) {

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Aether — Interactive 3D Studio",
+    "description": "An immersive, interactive 3D studio template for creative technology, digital art, and future-facing brands."
+  },
+  "brand": {
+    "name": "AETHER",
+    "mark": "A/03",
+    "homeLabel": "Aether home",
+    "location": "NYC · 40.7128° N",
+    "status": "Signal online"
+  },
+  "navigation": {
+    "menuLabel": "Menu",
+    "closeLabel": "Close",
+    "ariaLabel": "Primary navigation",
+    "items": [
+      { "label": "Manifesto", "href": "#manifesto" },
+      { "label": "Experiments", "href": "#experiments" },
+      { "label": "Process", "href": "#process" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Independent creative technology studio",
+    "titleLead": "Reality,",
+    "titleAccent": "remixed.",
+    "body": "We build kinetic identities, immersive worlds, and digital objects that feel alive under your fingertips.",
+    "cta": "Enter the studio",
+    "scrollLabel": "Scroll to decode",
+    "sceneLabel": "Interactive three-dimensional particle sculpture. Drag to rotate or use the arrow keys.",
+    "sceneHint": "Drag the object",
+    "pauseLabel": "Pause motion",
+    "playLabel": "Play motion",
+    "modeLabel": "Select a world",
+    "specimenLabel": "Live specimen",
+    "fpsLabel": "Realtime",
+    "edition": "Edition 03 / 2026"
+  },
+  "worlds": [
+    { "name": "Pulse", "type": "orb", "description": "A breathing field of synthetic matter.", "color": "#c8ff43", "secondary": "#f4fff0" },
+    { "name": "Fold", "type": "ribbon", "description": "A continuous surface caught in orbit.", "color": "#ff6534", "secondary": "#ffd3bd" },
+    { "name": "Drift", "type": "knot", "description": "A signal looping beyond its own edge.", "color": "#9b8cff", "secondary": "#ddd8ff" }
+  ],
+  "manifesto": {
+    "id": "manifesto",
+    "index": "01",
+    "eyebrow": "Our point of view",
+    "title": "The screen is not a page. It is a place.",
+    "body": "We combine design, motion, and code to create experiences with gravity, texture, and surprise. No passive pixels. Every detail is designed to react.",
+    "marquee": ["Art direction", "Realtime 3D", "Digital identity", "Creative code"],
+    "stat": "60 FPS",
+    "statLabel": "Designed for flow"
+  },
+  "work": {
+    "id": "experiments",
+    "index": "02",
+    "countLabel": "(03)",
+    "eyebrow": "Selected experiments",
+    "title": "Three portals. One new perspective.",
+    "openLabel": "Load this world",
+    "items": [
+      { "number": "01", "name": "Pulse Field", "category": "Spatial identity", "year": "2026", "world": 0 },
+      { "number": "02", "name": "Soft Machines", "category": "Digital installation", "year": "2025", "world": 1 },
+      { "number": "03", "name": "Endless Signal", "category": "Generative campaign", "year": "2025", "world": 2 }
+    ]
+  },
+  "process": {
+    "id": "process",
+    "index": "03",
+    "eyebrow": "How we make",
+    "title": "From strange thought to living system.",
+    "items": [
+      { "number": "01", "name": "Sense", "body": "We map the emotion, behavior, and cultural signal behind the brief." },
+      { "number": "02", "name": "Simulate", "body": "We prototype motion and interaction early, while every possibility is still open." },
+      { "number": "03", "name": "Shape", "body": "We refine the system into a tactile, resilient experience ready for the real world." }
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "index": "04",
+    "eyebrow": "Start a transmission",
+    "title": "Have a world in mind?",
+    "body": "Tell us where you want to take people. We will find the most interesting route there.",
+    "emailLabel": "Your email address",
+    "emailPlaceholder": "you@somewhere.com",
+    "submitLabel": "Send signal",
+    "emptyMessage": "Add an email so we know where to reply.",
+    "invalidMessage": "That signal needs a valid email address.",
+    "successMessage": "Signal received. We will be in touch.",
+    "directLabel": "Or write directly",
+    "email": "hello@aether.studio"
+  },
+  "footer": {
+    "copyright": "© 2026 Aether Studio",
+    "note": "Built with curiosity",
+    "top": "Back to orbit ↑"
+  }
+}
