@@ -163,8 +163,7 @@ function createGallery(sites) {
     <main>${cards}
     </main>
     <footer>
-      <p>Built automatically from the templates directory.</p>
-      <p>Add a site, push to main, and it appears here.</p>
+      <p>Created by Felix Fernandez</p>
     </footer>
   </body>
 </html>`;
