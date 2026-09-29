@@ -315,6 +315,7 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 dist/
+pages-dist/
 playwright-report/
 test-results/
 
