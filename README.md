@@ -24,18 +24,10 @@ npm run dev:saas
 
 Replace `saas` with `agency`, `portfolio`, `restaurant`, `real-estate`, or `dimension`. Vite prints the local preview URL in the terminal.
 
-Build or test every site from the repository root:
+Build every site from the repository root:
 
 ```bash
 npm run build
-npm test
-```
-
-Run the responsive browser smoke tests after installing Playwright's Chromium browser:
-
-```bash
-npx playwright install chromium
-npm run test:e2e
 ```
 
 Each app is also standalone. For example:
@@ -129,4 +121,4 @@ templates/
       styles.css
 ```
 
-The root uses npm workspaces only for convenient installation and shared commands. Every template retains its own package, source, tests, styles, and content file, with no shared runtime dependency between sites.
+The root uses npm workspaces only for convenient installation and shared commands. Every template retains its own package, source, styles, and content file, with no shared runtime dependency between sites.

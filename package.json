@@ -13,11 +13,6 @@
     "dev:real-estate": "npm run dev --workspace @templates/real-estate",
     "dev:dimension": "npm run dev --workspace @templates/dimension",
     "build": "npm run build --workspaces --if-present",
-    "build:pages": "node scripts/build-pages.mjs",
-    "test": "npm run test --workspaces --if-present",
-    "test:e2e": "playwright test"
-  },
-  "devDependencies": {
-    "@playwright/test": "1.48.2"
+    "build:pages": "node scripts/build-pages.mjs"
   }
 }
